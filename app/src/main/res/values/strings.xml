@@ -1,0 +1,58 @@
+<resources>
+    <string name="facebook_app_id">1306675042729610</string>
+
+    <string name="app_name">AavJaav</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="intro_text_1">Kiss goodbye to hassles of <b>public</b> transport.</string>
+    <string name="intro_text_2">Save on <b>fuel cost</b> and save pollution.</string>
+    <string name="intro_text_3">It\'s time <b>to start</b> sharing &amp; earning.</string>
+    <string name="login_explanation">Enter your email and password below \n or login with Facebook or Google</string>
+    <string name="login_welcome">Welcome</string>
+    <string name="login_email_adress">Email Address</string>
+    <string name="login_hint">.......</string>
+    <string name="login_submit">Login</string>
+    <string name="loging_reset_password">Password</string>
+    <string name="login_register">Register</string>
+    <string name="signup_register">Register</string>
+    <string name="signup_terms">By registering you agree to\n our terms and conditions</string>
+    <string name="sign_up_email">Enter your email address</string>
+    <string name="sign_up_password">Enter your password</string>
+    <string name="sign_up_confirm">Confirm your password</string>
+    <string name="sign_up_submit">Register</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="fragment_book_a_car_search_for_a_car">Search for a car</string>
+    <string name="book_car_pick_up_location">   Pick-up location</string>
+    <string name="title_activity_my_bookings_fragment">CurrentBookingFragment</string>
+    <string name="fragment_current_booking_hint">You can add a booking manually or search \n for a car now</string>
+    <string name="about_text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue convallis dui interdum varius. Suspendisse id maximus nisi, id pellentesque elit. Sed ut imperdiet erat. Nullam elit urna, tempor id cursus eu, efficitur nec dui. Aenean nulla elit, iaculis malesuada urna vel, rutrum tempus eros. Praesent ornare, libero id feugiat tincidunt, nisl lectus hendrerit odio, interdum finibus neque orci at erat. Sed semper lobortis convallis. Nam id gravida justo, id hendrerit velit. Nam pretium tristique dui et faucibus. Sed lacinia pharetra porttitor. In ultrices vulputate purus eget ultricies. Integer nisl mauris, tincidunt sit amet nisi ac, luctus tincidunt purus. Sed rhoncus vel mauris sed pellentesque. Donec pharetra ante vitae justo sodales dapibus. Mauris elementum, metus in efficitur lobortis, lectus dui elementum urna, eget blandit sem sapien sed purus. Maecenas arcu massa, interdum id iaculis ut, tincidunt vitae risus.
+
+Aenean euismod facilisis tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec varius, sem eget pulvinar iaculis, tortor lorem varius urna, in mattis neque nisi a nisl. Cras pretium volutpat massa, a convallis mauris iaculis sit amet. Nam lobortis nulla justo. Quisque scelerisque, metus eu egestas scelerisque, lectus quam posuere ante, ac ultricies velit eros vulputate augue. Proin vehicula mollis velit a porta. Pellentesque ac metus euismod, semper quam in, efficitur elit. Etiam sollicitudin lectus eu tortor bibendum dignissim.
+
+In vel dui vitae massa tristique malesuada. Morbi tincidunt odio metus, in mollis enim consequat ut. Maecenas eget sapien egestas, porta quam a, placerat justo. Quisque in nisi a sapien efficitur porttitor. Suspendisse at augue dictum, facilisis ipsum id, dictum felis. Sed at odio vestibulum, suscipit leo malesuada, volutpat arcu. Nam posuere accumsan imperdiet. Vivamus tristique mattis tortor, non rhoncus orci egestas non. Mauris semper metus metus, quis rhoncus massa finibus sed. Nulla est eros, ullamcorper vel mauris quis, fermentum dapibus orci. Nam consequat tellus vitae varius feugiat. Proin fermentum ornare sodales.</string>
+    <string name="fragment_payment_details_hint">You have not added a payment method yet. Would you like to add one?</string>
+    <string name="activity_change_password_current">Enter current password</string>
+    <string name="activity_change_password_new">Enter new password</string>
+    <string name="activity_change_password_confirm">Confirm new password</string>
+    <string name="fragment_feedback_found_a_bug">Found a bug?</string>
+    <string name="fragment_feedback_describe_the_steps_so_we_can_recreate_the_bug">Describe the steps so we can recreate the bug.</string>
+    <string name="fragment_feedback_enter_your_message">Enter your message.</string>
+    <string name="fragment_feedback_leave_us_a_message">Leave us a message</string>
+    <string name="fragment_feedback_rate_us">Rate us</string>
+    <string name="account_details_sign_out">Sign out</string>
+    <string name="fragment_feedback_send">Send</string>
+    <string name="activity_cars_result_sort_by">Sort by</string>
+    <string name="activity_cars_result_filter">Filter</string>
+
+    <string-array name="titles">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Miss</item>
+        <item>Ms</item>
+        <item>Dr</item>
+    </string-array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aavjaav.qd.aavjaav">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDVvUBpcwFYzUCgjLTf81np9qio56S2c-o" />
+
+        <activity
+            android:name=".view.activities.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.activities.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activities.ChangePasswordActivity"
+            android:parentActivityName=".view.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activities.AccountDetailsActivity"
+            android:parentActivityName=".view.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cooltechworks.creditcarddesign.CardEditActivity"
+            android:label="Add Payment Method"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <activity
+            android:name=".view.activities.CarsResultActivity"
+            android:parentActivityName=".view.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.activities.FilterActivity"
+            android:parentActivityName=".view.activities.CarsResultActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

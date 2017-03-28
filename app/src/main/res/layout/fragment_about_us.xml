@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fragment_about_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:alpha=".4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/city_road" />
+
+    <LinearLayout
+        android:id="@+id/fragment_about_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            fontPath="fonts/Lato-Black.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Aav"
+            android:textColor="@color/colorPrimary"
+            android:textSize="45sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Lato-Black.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Jav"
+            android:textColor="@color/orangeDark"
+            android:textSize="45sp"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_below="@id/fragment_about_logo"
+        android:text="Version 1.0.0"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/fragment_about_image"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_margin="12dp"
+            android:text="@string/about_text"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

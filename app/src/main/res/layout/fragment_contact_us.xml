@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp" />
+
+                <TextView
+                    fontPath="fonts/Lato-Bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+44) 161 230 1111"
+                    android:textColor="@color/colorTextSecondaryDark"
+                    android:textSize="15sp"
+                    tools:ignore="MissingPrefix" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_black_stroke"
+                android:gravity="center"
+                android:text="Call"
+                android:textColor="@color/colorTextPrimaryDark" />
+
+
+        </LinearLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTextDividersDark"
+            />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="International number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp" />
+
+                <TextView
+                    fontPath="fonts/Lato-Bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(+44) 161 230 1111"
+                    android:textColor="@color/colorTextSecondaryDark"
+                    android:textSize="15sp"
+                    tools:ignore="MissingPrefix" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_black_stroke"
+                android:gravity="center"
+                android:text="Call"
+                android:textColor="@color/colorTextPrimaryDark" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send us a message"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email AavJav"
+                android:textColor="@color/colorTextPrimaryDark"
+                android:textSize="15sp"
+                tools:ignore="MissingPrefix" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_black_stroke"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAQs"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check the most popular questions"
+                android:textColor="@color/colorTextPrimaryDark"
+                android:textSize="15sp"
+                tools:ignore="MissingPrefix" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_black_stroke"
+            android:gravity="center"
+            android:text="FAQs"
+            android:textColor="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

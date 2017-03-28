@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book_car"
+            android:icon="@drawable/ic_search"
+            android:title="Book A Car" />
+        <item
+            android:id="@+id/nav_my_bookings"
+            android:icon="@drawable/ic_car"
+            android:title="My Bookings" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="My Account" />
+
+        <!--<item
+            android:id="@+id/nav_rate_card"
+            android:icon="@drawable/ic_rate"
+            android:title="Rate Card" />-->
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_create_new_pencil_button"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_close_envelope"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_icon"
+            android:title="About Us" />
+
+
+    </group>
+
+
+</menu>
